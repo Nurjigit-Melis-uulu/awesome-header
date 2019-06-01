@@ -17,7 +17,7 @@ header {
 }
 
 header div {
-  width: 100%;
+  width: 25%;
 }
 
 header div:nth-child(odd) {
@@ -28,6 +28,27 @@ header div:nth-child(even) {
   background: linear-gradient(to bottom, rgb(9, 134, 172), rgb(131, 27, 180));
 }
 
-.layer-1 {
-  background: url();
+section header div.slide {
+  transition: width 1s;
+  background-size: cover;
+}
+
+section header div.slide:hover {
+  width: 100%;
+}
+
+header div.layer-1 {
+  background: url(./images/1_cCdSJ0mOqjQkm-soL5hlIw.jpeg);
+}
+
+header div.layer-2 {
+  background: url(./images/7f7403683951de4c431affc2ff53c948.jpg);
+}
+
+header div.layer-3 {
+  background: url(./images/ceee958ec95039bb668d27b7c151d8f8.jpg);
+}
+
+header div.layer-4 {
+  background: url(./images/fsplfpqbcz.jpg);
 }

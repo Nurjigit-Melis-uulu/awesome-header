@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background: black;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  width: 80%;
+  height: 100%;
+  display: flex;
+}
+
+header div {
+  width: 100%;
+}
+
+header div:nth-child(odd) {
+  background: linear-gradient(to top, rgb(9, 98, 172), rgb(76, 60, 129));
+}
+
+header div:nth-child(even) {
+  background: linear-gradient(to bottom, rgb(9, 134, 172), rgb(131, 27, 180));
+}
+
+.layer-1 {
+  background: url();
+}
